@@ -1,0 +1,48 @@
+## Python + SQL :::::::::: by Ivan Albarello -- Maio de 2024
+
+::::: QUERIES | ARQUIVOS CREATE SQL & PYTHON :::::
+
+1. SQL_DB_Hypera.sql
+2. Python_DB_Hypera.ipynb
+
+Estes códigos realizam as seguintes ações:
+
+A. Cria a tabela PRODUTO: Define a estrutura da tabela com colunas para CODIGO, DESCRICAO, CATEGORIA, ATIVO e PROMOVIDO, 
+e insere 10 registros de produtos farmacêuticos;
+
+B. Cria a tabela LOJA: Define a estrutura da tabela com colunas para CNPJ, CLIENTE, ASSOCIACAO, ATIVO e UF, 
+e insere 10 registros de lojas;
+
+C. Cria a tabela FATO: Define a estrutura da tabela com colunas para CODIGO_PRODUTO, CNPJ_LOJA, PERIODO, VOLUME e VALOR, 
+e insere 10 registros de fatos de vendas. As chaves código e CNPJ garantem a integridade referencial entre 
+as tabelas PRODUTO e FATO
+
+
+
+
+
+::::: QUERIES | ARQUIVOS CONSULTAS SQL & PYTHON :::::
+
+1.1 SQL_Consultas.sql
+2.2 Python_Consultas_Python.ipynb
+
+
+Consultas_SQL e Python: * Banco de dados criados por Ivan Albarello são meramente para Portfolio de apresentação
+
+### A. Quais os 3 produtos com maior faturamento no ano de 2024;
+
+### B. Quais as quantidades de lojas ativas em "SP";
+
+### C. Quais as quantidades de produtos promovidos com vendas no último mês;
+
+### D. Quais são as 10 lojas com maior faturamento no ano de 2024;
+
+### E. Qual o total de vendas mensais por categoria;
+
+
+--Observação:
+
+Você pode executar esse código diretamente em um ambiente VS Code, SQL Server Management Studio (SSMS) ou 
+em qualquer outra ferramenta de administração SQL Server e ETL. *Certifique-se de que o banco de dados ao qual 
+você está se conectando esteja configurado e acessível.
+
